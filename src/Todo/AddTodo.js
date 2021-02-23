@@ -18,7 +18,7 @@ function submitHandler (event) {
         <form style={{
             marginBottom: "1rem",
             margin: "0 auto",
-            width: "600px",
+            width: "100%",
             display: "flex",
             justifyContent: "space-between",
             height: "38px"
@@ -29,7 +29,7 @@ function submitHandler (event) {
                    style={{
                        border: "1px solid #ccc",
                        borderRadius: "4px",
-                       width: "512px"
+                       width: "80%"
 
                    }}/>
             <button type={"submit"}
