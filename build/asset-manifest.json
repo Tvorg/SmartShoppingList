@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Tvorg/SmartShoppingList/build/static/css/main.a0c76919.chunk.css",
-    "main.js": "/Tvorg/SmartShoppingList/build/static/js/main.8e20f76c.chunk.js",
-    "main.js.map": "/Tvorg/SmartShoppingList/build/static/js/main.8e20f76c.chunk.js.map",
-    "runtime-main.js": "/Tvorg/SmartShoppingList/build/static/js/runtime-main.f725082c.js",
-    "runtime-main.js.map": "/Tvorg/SmartShoppingList/build/static/js/runtime-main.f725082c.js.map",
-    "static/js/2.b78b6fde.chunk.js": "/Tvorg/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js",
-    "static/js/2.b78b6fde.chunk.js.map": "/Tvorg/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js.map",
-    "index.html": "/Tvorg/SmartShoppingList/build/index.html",
-    "precache-manifest.664ff8b27b68445fb8515cb1af1305ce.js": "/Tvorg/SmartShoppingList/build/precache-manifest.664ff8b27b68445fb8515cb1af1305ce.js",
-    "service-worker.js": "/Tvorg/SmartShoppingList/build/service-worker.js",
-    "static/css/main.a0c76919.chunk.css.map": "/Tvorg/SmartShoppingList/build/static/css/main.a0c76919.chunk.css.map",
-    "static/js/2.b78b6fde.chunk.js.LICENSE.txt": "/Tvorg/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js.LICENSE.txt"
+    "main.css": "/SmartShoppingList/build/static/css/main.a0c76919.chunk.css",
+    "main.js": "/SmartShoppingList/build/static/js/main.4f49ae04.chunk.js",
+    "main.js.map": "/SmartShoppingList/build/static/js/main.4f49ae04.chunk.js.map",
+    "runtime-main.js": "/SmartShoppingList/build/static/js/runtime-main.dce657c8.js",
+    "runtime-main.js.map": "/SmartShoppingList/build/static/js/runtime-main.dce657c8.js.map",
+    "static/js/2.b78b6fde.chunk.js": "/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js",
+    "static/js/2.b78b6fde.chunk.js.map": "/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js.map",
+    "index.html": "/SmartShoppingList/build/index.html",
+    "precache-manifest.73b1af61b56ae5aa7c37483eaa3ac0a9.js": "/SmartShoppingList/build/precache-manifest.73b1af61b56ae5aa7c37483eaa3ac0a9.js",
+    "service-worker.js": "/SmartShoppingList/build/service-worker.js",
+    "static/css/main.a0c76919.chunk.css.map": "/SmartShoppingList/build/static/css/main.a0c76919.chunk.css.map",
+    "static/js/2.b78b6fde.chunk.js.LICENSE.txt": "/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f725082c.js",
+    "static/js/runtime-main.dce657c8.js",
     "static/js/2.b78b6fde.chunk.js",
     "static/css/main.a0c76919.chunk.css",
-    "static/js/main.8e20f76c.chunk.js"
+    "static/js/main.4f49ae04.chunk.js"
   ]
 }
