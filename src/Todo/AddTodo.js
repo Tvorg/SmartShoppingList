@@ -38,7 +38,7 @@ function submitHandler (event) {
                     border: "1px solid grey",
                     borderRadius: "5px",
                     color: "white",
-                    width: "78px"
+                    width: "18%"
                 }}>
                 Add item
             </button>
