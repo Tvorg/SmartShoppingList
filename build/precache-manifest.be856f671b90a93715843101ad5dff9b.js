@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d47058a8bc6eccb64b940b5d31df0fb",
+    "revision": "ab504f1ef21015c0272226f36715bd5e",
     "url": "/SmartShoppingList/build/index.html"
   },
   {
-    "revision": "b5f4be98c67d41f8e782",
-    "url": "/SmartShoppingList/build/static/css/main.a0c76919.chunk.css"
+    "revision": "615b05f5bcec779dc82d",
+    "url": "/SmartShoppingList/build/static/css/main.cd3f02be.chunk.css"
   },
   {
     "revision": "0fd15da43d715847d6bf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5f4be98c67d41f8e782",
-    "url": "/SmartShoppingList/build/static/js/main.4f49ae04.chunk.js"
+    "revision": "615b05f5bcec779dc82d",
+    "url": "/SmartShoppingList/build/static/js/main.053d5a9c.chunk.js"
   },
   {
     "revision": "ee361b6d6f950b7361af",
