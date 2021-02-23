@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tvorg/SmartShoppingList/build/precache-manifest.b475bd4e5086840870f6a2d036a8b429.js"
+  "/Tvorg/SmartShoppingList/build/precache-manifest.29ce57ea2a1652126d1577374267226d.js"
 );
 
 self.addEventListener('message', (event) => {

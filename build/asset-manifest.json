@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Tvorg/SmartShoppingList/build/static/css/main.a0c76919.chunk.css",
-    "main.js": "/Tvorg/SmartShoppingList/build/static/js/main.7252029e.chunk.js",
-    "main.js.map": "/Tvorg/SmartShoppingList/build/static/js/main.7252029e.chunk.js.map",
-    "runtime-main.js": "/Tvorg/SmartShoppingList/build/static/js/runtime-main.0eca9c07.js",
-    "runtime-main.js.map": "/Tvorg/SmartShoppingList/build/static/js/runtime-main.0eca9c07.js.map",
-    "static/js/2.39162f41.chunk.js": "/Tvorg/SmartShoppingList/build/static/js/2.39162f41.chunk.js",
-    "static/js/2.39162f41.chunk.js.map": "/Tvorg/SmartShoppingList/build/static/js/2.39162f41.chunk.js.map",
+    "main.js": "/Tvorg/SmartShoppingList/build/static/js/main.e4e69985.chunk.js",
+    "main.js.map": "/Tvorg/SmartShoppingList/build/static/js/main.e4e69985.chunk.js.map",
+    "runtime-main.js": "/Tvorg/SmartShoppingList/build/static/js/runtime-main.17a5dd3c.js",
+    "runtime-main.js.map": "/Tvorg/SmartShoppingList/build/static/js/runtime-main.17a5dd3c.js.map",
+    "static/js/2.1ad151f7.chunk.js": "/Tvorg/SmartShoppingList/build/static/js/2.1ad151f7.chunk.js",
+    "static/js/2.1ad151f7.chunk.js.map": "/Tvorg/SmartShoppingList/build/static/js/2.1ad151f7.chunk.js.map",
     "index.html": "/Tvorg/SmartShoppingList/build/index.html",
-    "precache-manifest.b475bd4e5086840870f6a2d036a8b429.js": "/Tvorg/SmartShoppingList/build/precache-manifest.b475bd4e5086840870f6a2d036a8b429.js",
+    "precache-manifest.29ce57ea2a1652126d1577374267226d.js": "/Tvorg/SmartShoppingList/build/precache-manifest.29ce57ea2a1652126d1577374267226d.js",
     "service-worker.js": "/Tvorg/SmartShoppingList/build/service-worker.js",
     "static/css/main.a0c76919.chunk.css.map": "/Tvorg/SmartShoppingList/build/static/css/main.a0c76919.chunk.css.map",
-    "static/js/2.39162f41.chunk.js.LICENSE.txt": "/Tvorg/SmartShoppingList/build/static/js/2.39162f41.chunk.js.LICENSE.txt"
+    "static/js/2.1ad151f7.chunk.js.LICENSE.txt": "/Tvorg/SmartShoppingList/build/static/js/2.1ad151f7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0eca9c07.js",
-    "static/js/2.39162f41.chunk.js",
+    "static/js/runtime-main.17a5dd3c.js",
+    "static/js/2.1ad151f7.chunk.js",
     "static/css/main.a0c76919.chunk.css",
-    "static/js/main.7252029e.chunk.js"
+    "static/js/main.e4e69985.chunk.js"
   ]
 }
