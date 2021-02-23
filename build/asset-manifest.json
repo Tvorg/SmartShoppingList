@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SmartShoppingList/build/static/css/main.cd3f02be.chunk.css",
-    "main.js": "/SmartShoppingList/build/static/js/main.053d5a9c.chunk.js",
-    "main.js.map": "/SmartShoppingList/build/static/js/main.053d5a9c.chunk.js.map",
+    "main.js": "/SmartShoppingList/build/static/js/main.27f0d2fa.chunk.js",
+    "main.js.map": "/SmartShoppingList/build/static/js/main.27f0d2fa.chunk.js.map",
     "runtime-main.js": "/SmartShoppingList/build/static/js/runtime-main.dce657c8.js",
     "runtime-main.js.map": "/SmartShoppingList/build/static/js/runtime-main.dce657c8.js.map",
     "static/js/2.b78b6fde.chunk.js": "/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js",
     "static/js/2.b78b6fde.chunk.js.map": "/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js.map",
     "index.html": "/SmartShoppingList/build/index.html",
-    "precache-manifest.be856f671b90a93715843101ad5dff9b.js": "/SmartShoppingList/build/precache-manifest.be856f671b90a93715843101ad5dff9b.js",
+    "precache-manifest.de0e1d667e17274383bbb3d1e58f47c5.js": "/SmartShoppingList/build/precache-manifest.de0e1d667e17274383bbb3d1e58f47c5.js",
     "service-worker.js": "/SmartShoppingList/build/service-worker.js",
     "static/css/main.cd3f02be.chunk.css.map": "/SmartShoppingList/build/static/css/main.cd3f02be.chunk.css.map",
     "static/js/2.b78b6fde.chunk.js.LICENSE.txt": "/SmartShoppingList/build/static/js/2.b78b6fde.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.dce657c8.js",
     "static/js/2.b78b6fde.chunk.js",
     "static/css/main.cd3f02be.chunk.css",
-    "static/js/main.053d5a9c.chunk.js"
+    "static/js/main.27f0d2fa.chunk.js"
   ]
 }
