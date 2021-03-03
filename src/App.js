@@ -38,7 +38,7 @@ function addTodo(title) {
   return(
       <Context.Provider value={{removeTodo: removeTodo}}>
       <div className='wrapper'>
-        <h1>Smart Shopping List</h1>
+        <p className="titleTextStyle">Smart Shopping List</p>
 
           {todos.length ?(
           <TodoList todos={todos} onToggle={toggleTodo}/>
