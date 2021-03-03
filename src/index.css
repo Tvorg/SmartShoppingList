@@ -20,3 +20,27 @@ code {
 .done{
   text-decoration: line-through;
 }
+
+.titleTextStyle{
+  font-size: 30px;
+}
+
+@media (max-width: 600px) {
+  .titleTextStyle {
+    font-size: 24px;
+    text-align: center;
+  }
+  .wrapper{
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .titleTextStyle {
+    font-size: 22px;
+    text-align: center;
+  }
+  .wrapper{
+    width: 90%;
+  }
+}

@@ -1,0 +1,64 @@
+/*addTodoStyle*/
+
+.formAddStyle{
+    margin-bottom: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+}
+
+.inputAddStyle{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.buttonAddStyle {
+    background: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    width: 18%;
+}
+
+/*TodoItemStyle*/
+
+.liTodoItemStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+}
+
+.inputTodoItemStyle{
+    margin-right: 1rem;
+}
+
+.buttonTodoItemStyle {
+    background: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+
+/*TodoListStyle*/
+
+.ulTodoListStyle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*adaptive*/
+
+@media (max-width: 600px) {
+    .inputAddStyle{
+        width: 79%;
+    }
+}

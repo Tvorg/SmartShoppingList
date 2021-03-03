@@ -1,28 +1,8 @@
 import React, {useContext} from "react";
 import PropTypes from "prop-types";
 import Context from "../context";
+import "./Todo.css"
 
-const styles = {
-    li:{
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        padding: ".5rem 1rem",
-        border: "1px solid #ccc",
-        borderRadius: "4px",
-        marginBottom: ".5rem"
-
-    },
-    input:{
-        marginRight: "1rem"
-    },
-    button:{
-        background: "grey",
-        border: "1px solid grey",
-        borderRadius: "5px",
-        color: "white"
-    }
-}
 
 function TodoItem({ todo, index, onChange}) {
     const { removeTodo } = useContext(Context)
@@ -31,12 +11,12 @@ function TodoItem({ todo, index, onChange}) {
         classes.push('done')
     }
     return(
-        <li style={styles.li}>
+        <li className="liTodoItemStyle">
             <span className={classes.join('')}>
                 <input
+                className="inputTodoItemStyle"
                 type="checkbox"
                 checked={todo.completed}
-                style={styles.input}
                 onChange={() => onChange(todo.id)}
                 />
                 <strong>{index +1}</strong>
@@ -44,7 +24,7 @@ function TodoItem({ todo, index, onChange}) {
                 {todo.title}
             </span>
 
-            <button style={styles.button} onClick={removeTodo.bind(null, todo.id)}>
+            <button className="buttonTodoItemStyle" onClick={removeTodo.bind(null, todo.id)}>
                 &times;</button>
 
         </li>
