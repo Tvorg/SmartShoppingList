@@ -28,15 +28,20 @@
 .liTodoItemStyle {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: .5rem 1rem;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: .5rem;
+
+}
+.spanTodoItemStyle{
+    display: flex;
 }
 
 .inputTodoItemStyle{
     margin-right: 1rem;
+
 }
 
 .buttonTodoItemStyle {
@@ -44,6 +49,11 @@
     border: 1px solid grey;
     border-radius: 5px;
     color: white;
+    height: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    box-sizing: content-box;
+
 }
 
 /*TodoListStyle*/

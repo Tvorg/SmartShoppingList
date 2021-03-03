@@ -12,7 +12,7 @@ function TodoItem({ todo, index, onChange}) {
     }
     return(
         <li className="liTodoItemStyle">
-            <span className={classes.join('')}>
+            <span className="spanTodoItemStyle">
                 <input
                 className="inputTodoItemStyle"
                 type="checkbox"
@@ -25,7 +25,7 @@ function TodoItem({ todo, index, onChange}) {
             </span>
 
             <button className="buttonTodoItemStyle" onClick={removeTodo.bind(null, todo.id)}>
-                &times;</button>
+                x</button>
 
         </li>
         )
