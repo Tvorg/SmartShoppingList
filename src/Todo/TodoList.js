@@ -4,18 +4,18 @@ import TodoItem from "./TodoItem";
 import "./Todo.css"
 
 
-    function TodoList(props) {
-    return(
+function TodoList(props) {
+    return (
         <ul className="ulTodoListStyle">
-            {props.todos.map((todo, index)=>{
+            {props.todos.map((todo, index) => {
                 return (
                     <TodoItem
-                    todo={todo}
-                    key={todo.id}
-                    index={index}
-                    onChange={props.onToggle}
+                        todo={todo}
+                        key={todo.id}
+                        index={index}
+                        onChange={props.onToggle}
                     />
-                    )
+                )
             })}
         </ul>
     )

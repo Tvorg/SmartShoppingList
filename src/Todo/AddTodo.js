@@ -6,21 +6,21 @@ import "./Todo.css"
 function AddTodo({onCreate}) {
     const [value, setValue] = useState('')
 
-function submitHandler (event) {
+    function submitHandler(event) {
         event.preventDefault()
 
-    if(value.trim()){
-        onCreate('Купить ' + value)
-        setValue('')
+        if (value.trim()) {
+            onCreate('Купить ' + value)
+            setValue('')
+        }
     }
-}
 
-    return(
+    return (
         <form className="formAddStyle" onSubmit={submitHandler}>
             <input value={value} onChange={event =>
                 setValue(event.target.value)}
                    className="inputAddStyle"
-                   />
+            />
             <button type={"submit"} className="buttonAddStyle">
                 Add item
             </button>
@@ -28,6 +28,7 @@ function submitHandler (event) {
     )
 
 }
+
 AddTodo.propTypes = {
     onCreate: PropTypes.func.isRequired
 

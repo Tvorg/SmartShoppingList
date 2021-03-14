@@ -4,39 +4,40 @@ import Context from "../context";
 import "./Todo.css"
 
 
-function TodoItem({ todo, index, onChange}) {
-    const { removeTodo } = useContext(Context)
-    const classes =[]
-    if(todo.completed){
+function TodoItem({todo, index, onChange}) {
+    const {removeTodo} = useContext(Context)
+    const classes = []
+    if (todo.completed) {
         classes.push('done')
     }
-    return(
+    return (
         <li className="liTodoItemStyle">
             <span className="spanTodoItemStyle">
                 <input
-                className="inputTodoItemStyle"
-                type="checkbox"
-                checked={todo.completed}
-                onChange={() => onChange(todo.id)}
+                    className="inputTodoItemStyle"
+                    type="checkbox"
+                    checked={todo.completed}
+                    onChange={() => onChange(todo.id)}
                 />
-                <strong>{index +1}</strong>
+                <strong>{index + 1}</strong>
                 &nbsp;
                 {todo.title}
             </span>
 
             <button className="buttonTodoItemStyle" onClick={removeTodo.bind(null, todo.id)}>
-                x</button>
+                x
+            </button>
 
         </li>
-        )
+    )
 }
 
 
-TodoItem.propTypes ={
+TodoItem.propTypes = {
     todo: PropTypes.object.isRequired,
     index: PropTypes.number,
     onChange: PropTypes.func.isRequired
- }
+}
 
 
 export default TodoItem
