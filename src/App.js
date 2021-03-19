@@ -49,7 +49,6 @@ function App() {
         <Context.Provider value={{removeTodo: removeTodo}}>
             <div className='wrapper'>
                 <p className="titleTextStyle">Smart Shopping List</p>
-
                 {todos.length ? (
                     <TodoList todos={todos} onToggle={toggleTodo}/>
                 ) : (
