@@ -6,13 +6,10 @@ import "./Todo.css"
 
 function TodoItem({todo, index, onChange}) {
     const {removeTodo} = useContext(Context)
-    const classes = []
-    if (todo.completed) {
-        classes.push('done')
-    }
+
     return (
         <li className="liTodoItemStyle">
-            <span className="spanTodoItemStyle">
+            <span className={"spanTodoItemStyle" + (todo.completed ?' done' : '')}>
                 <input
                     className="inputTodoItemStyle"
                     type="checkbox"

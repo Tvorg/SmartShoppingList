@@ -39,6 +39,7 @@
     display: flex;
 }
 
+
 .inputTodoItemStyle{
     margin-right: 1rem;
 
@@ -54,6 +55,9 @@
     text-transform: uppercase;
     box-sizing: content-box;
 
+}
+.done{
+    text-decoration: line-through;
 }
 
 /*TodoListStyle*/
